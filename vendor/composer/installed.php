@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.9',
-        'version' => '9.3.9.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'f289a7761425e9afff105f0e218ebdd89c6f42da',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -544,6 +544,15 @@
                 0 => '9.3.9',
             ),
         ),
+        'drupal/menu_block' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/menu_block',
+            'aliases' => array(),
+            'reference' => '8.x-1.8',
+            'dev_requirement' => false,
+        ),
         'drupal/menu_link_content' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -635,12 +644,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '9.3.9',
-            'version' => '9.3.9.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'f289a7761425e9afff105f0e218ebdd89c6f42da',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
